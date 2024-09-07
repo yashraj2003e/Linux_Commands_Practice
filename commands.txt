@@ -1,18 +1,75 @@
 # Commands Refresher (Important of them) 
 1. Identify the files and directories in the working directory
 Command => ls
+
 2. Present Working Directory
 Command => pwd
+
 3. Create a directory
 Command => mkdir <directory_name>
+
 4. Navigate between Directories.
 Command => cd
+
 5. Permanently delete an empty directory
 Command => rmdir <directory_name>
+
 6. Copy-Paste a file
 Command => cp source_file_1_name dest_file_2_name
+
 7. Rename files
 Command => mv current_name new_name
+
 8. Remove a file
 Command => rm <file_name>
-9. 
+
+9. locate files in database (Not working on my Linux Mint)
+Command => locate <file_name>
+
+10. Complete OS Information (Again not working)
+Command => uname
+
+11. Create an empty file
+Command => touch <file_name>
+
+12. Show content of a file
+Command => cat <file_name>
+
+13. Clear the terminal
+Command => clear
+
+14. Show active processes
+Command => ps
+
+15. Show User Manual for any command
+Command => man <command_name>
+
+16. Find Specific String in a series of outputs
+Command => Command with output | grep "Word"
+
+17. Print something in a terminal
+Command => echo "Text"
+
+18. Download files from the internet
+Command => wget [option] [url]
+
+19. Show current user (extremely helpful if someone is network admin)
+Command => whoami
+
+20. Sort the content of file and display it (Temporary Sort only for viewing content)
+Command => sort <file_name>
+
+21. Show Calendar
+Command => cal <month> <year>
+
+22. Find exact location of any command
+Command => whereis <command_name>
+
+23. Details of file system (FileSystem, Size, Used, Available, Use Percentage, Mounted On)
+Command => df
+
+24. Show number of (words, characters, lines) in a file
+	1. wc -w (Total words)
+	2. wc -c (Total Characters)
+	3. wc -l (Total Lines)
+Command => wc <file_name> (if we do not pass any option it will give line, word, char output)
