@@ -73,3 +73,8 @@ Command => df
 	2. wc -c (Total Characters)
 	3. wc -l (Total Lines)
 Command => wc <file_name> (if we do not pass any option it will give line, word, char output)
+
+25. Show history of commands
+Command => history
+
+
