@@ -1,0 +1,18 @@
+# Commands Refresher (Important of them) 
+1. Identify the files and directories in the working directory
+Command => ls
+2. Present Working Directory
+Command => pwd
+3. Create a directory
+Command => mkdir <directory_name>
+4. Navigate between Directories.
+Command => cd
+5. Permanently delete an empty directory
+Command => rmdir <directory_name>
+6. Copy-Paste a file
+Command => cp source_file_1_name dest_file_2_name
+7. Rename files
+Command => mv current_name new_name
+8. Remove a file
+Command => rm <file_name>
+9. 
