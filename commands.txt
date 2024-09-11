@@ -2,6 +2,7 @@
 1. Identify the files and directories in the working directory
 Command => ls
 
+
 2. Present Working Directory
 Command => pwd
 
