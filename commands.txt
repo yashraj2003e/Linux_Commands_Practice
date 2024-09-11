@@ -2,7 +2,6 @@
 1. Identify the files and directories in the working directory
 Command => ls
 
-
 2. Present Working Directory
 Command => pwd
 
@@ -77,5 +76,23 @@ Command => wc <file_name> (if we do not pass any option it will give line, word,
 
 25. Show history of commands
 Command => history
+
+26. set environment variables
+Command => export <variable_name>=<value>
+
+27. remove environment variable
+Command => unset <variable_name>
+
+28. Search for custom process using ID
+Command => ps -p PID
+
+29. Kill a process
+Command => kill PID
+
+30. Print anything on terminal
+Command => echo <words>
+
+31. Show file output that needs scrolling
+Command => less <file_name>
 
 
